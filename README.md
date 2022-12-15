@@ -1,6 +1,8 @@
 
 # iCap
 
+Github Repo: [https://github.com/hilsonshrestha/cs539-final](https://github.com/hilsonshrestha/cs539-final)
+
 The goal of this project was to create and train a neural network model to generate captions for images. 
 Most methods in this domain utilize Convlutional Neural Networka to extract feature maps from images and a sequence network to generate the sentence using the feature map. Three models have been tested for this application.
 - Show and Tell (CNN - LSTM) [1] 
