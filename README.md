@@ -43,7 +43,7 @@ python transformer.py
 # m2_transformer
 ## Environment setup
 
-Clone the repository and create the `m2release` conda environment using the `environment.yml` file.
+The concerned files are in the m2_transformer folder. Create the `m2release` conda environment using the `environment.yml` file.
 
 Download spacy data by executing the following command:
 ```
