@@ -9,11 +9,13 @@ Most methods in this domain utilize Convlutional Neural Networka to extract feat
 
 ## 2. Image caption generator with transformer
 
-For this model we used 5 decoder layers.
-
 ### Model Architecture
 
 ![transformer model architecture](./images/transformer-model.png)
+
+For this model we used an mobilenet as an encoder which is a pretrained CNN. The feature represention of image is extracted using the enoder. And we stacked 5 decoder layer and connected to a external neural network to match the dimension of vocabulary to predict the next word. For text embeddings, we use the keras TextVectorization.
+
+The decoder layer consists of self attention from the previous input layer and cross attention from the encoder, which is the feature representation of the image. Then the multi-headed attention is fed into a fully connected neural network. The input word embedding is encoded with postions using positional encoding, and further masked inputs are fed into the decoder.
 
 ### Datasets
 
