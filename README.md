@@ -1,6 +1,6 @@
 # ReadMe
 
-Image caption generator with transformer
+# Image caption generator with transformer
 
 ## Datasets
 
@@ -44,7 +44,7 @@ python transformer.py
 # m2_transformer
 ## Environment setup
 
-Clone the repository and create the `m2release` conda environment using the `environment.yml` file.
+The concerned files are in the m2_transformer folder. Create the `m2release` conda environment using the `environment.yml` file.
 
 Download spacy data by executing the following command:
 ```
@@ -61,3 +61,12 @@ Run `python train.py` or `python test.py` with respective arguments to train or 
 
 Use `python custom.py` to test model on specific images of COCO dataset
 
+
+
+## BLEU-3 Score
+
+| SN  | Model                                   | BLEU-3 |
+|-----|-----------------------------------------|--------|
+|  1  | CNN + LSTM                              | 14.5%  |
+|  2  | **CNN + Transformer**                   | 20.7%  |
+|  3  | Faster RCNN + Meshed Memory Transformer | 28.3%  |
