@@ -61,3 +61,12 @@ Run `python train.py` or `python test.py` with respective arguments to train or 
 
 Use `python custom.py` to test model on specific images of COCO dataset
 
+
+
+## BLEU-3 Score
+
+| SN  | Model                                   | BLEU-3 |
+|-----|-----------------------------------------|--------|
+|  1  | CNN + LSTM                              | 14.5%  |
+|  2  | **CNN + Transformer**                   | 20.7%  |
+|  3  | Faster RCNN + Meshed Memory Transformer | 28.3%  |
