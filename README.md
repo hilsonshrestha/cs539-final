@@ -7,6 +7,21 @@ Most methods in this domain utilize Convlutional Neural Networka to extract feat
 - CNN - Transformer
 - Meshed Transformer [2]
 
+## 1. Image caption generator CNN-LSTM
+
+### Model Architecture
+![transformer model architecture](./images/cnn-lstm.png)
+
+For this model we used the Xception model as an encoder which is a pretrained CNN model. Feature representation is learnt for the images. 
+
+The LSTM acts as the decoder layer. 
+
+### Datasets
+
+This model uses the flicker8k dataset.
+
+### Run Code
+Run model.py
 ## 2. Image caption generator with transformer
 
 ### Model Architecture
