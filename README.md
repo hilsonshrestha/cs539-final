@@ -1,4 +1,3 @@
-# ReadMe
 
 # iCap
 
@@ -82,4 +81,5 @@ Use `python custom.py` to test model on specific images of COCO dataset
 # References
 
 [1] Vinyals, Oriol, Alexander Toshev, Samy Bengio, and Dumitru Erhan. "Show and tell: A neural image caption generator." In Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 3156-3164. 2015.
+
 [2] Cornia, Marcella, Matteo Stefanini, Lorenzo Baraldi, and Rita Cucchiara. "Meshed-memory transformer for image captioning." In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 10578-10587. 2020.
