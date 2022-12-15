@@ -10,7 +10,7 @@ Most methods in this domain utilize Convlutional Neural Networka to extract feat
 ## 1. Image caption generator CNN-LSTM
 
 ### Model Architecture
-![CNN-LSTM architecture](./images/cnn-lstm.png)
+![CNN-LSTM architecture](./images/cnn-lstm.PNG)
 
 For this model we used the Xception model as an encoder which is a pretrained CNN model. Feature representation is learnt for the images. 
 
