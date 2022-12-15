@@ -37,6 +37,7 @@ pip install -r requirements.txt
 
 To run the transformer:
 ```
+cd cnn_transformer
 python transformer.py
 ```
 
